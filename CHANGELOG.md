@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- changed: `app.giantswarm.io` label group was changed to `application.giantswarm.io`
+### Added
 
-[Unreleased]: https://github.com/giantswarm/{APP-NAME}/tree/main
+- Add initial repo configuration.
+
+[Unreleased]: https://github.com/giantswarm/linkerd-certs-app/tree/main

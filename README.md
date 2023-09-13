@@ -1,11 +1,11 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/giantswarm/APP-NAME/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/giantswarm/APP-NAME/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/giantswarm/linkerd-certs/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/giantswarm/linkerd-certs/tree/main)
 
 [Read me after cloning this template (GS staff only)](https://handbook.giantswarm.io/docs/dev-and-releng/app-developer-processes/adding_app_to_appcatalog/)
 
-# {APP-NAME} chart
+# linkerd-certs chart
 
-Giant Swarm offers a {APP-NAME} App which can be installed in workload clusters.
-Here we define the {APP-NAME} chart with its templates and default configuration.
+Giant Swarm offers a linkerd-certs App which can be installed in workload clusters.
+Here we define the linkerd-certs chart with its templates and default configuration.
 
 **What is this app?**
 
@@ -58,13 +58,3 @@ This app has been tested to work with the following workload cluster release ver
 
 - _add release version_
 
-## Limitations
-
-Some apps have restrictions on how they can be deployed.
-Not following these limitations will most likely result in a broken deployment.
-
-- _add limitation_
-
-## Credit
-
-- {APP HELM REPOSITORY}
