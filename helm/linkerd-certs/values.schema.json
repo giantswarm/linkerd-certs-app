@@ -10,6 +10,9 @@
         },
         "name": {
             "type": "string"
+        },
+        "testValue": {
+            "type": "object"
         }
     }
 }

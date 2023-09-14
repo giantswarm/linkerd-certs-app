@@ -3,3 +3,5 @@ name: linkerd-certs
 externalCA: false
 
 commonLabels: {}
+
+testValue: {}
