@@ -2,7 +2,7 @@ apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
   name: linkerd-policy-validator
-  namespace: linkerd
+  namespace: {{ .Release.Namespace }}
 spec:
   secretName: linkerd-policy-validator-k8s-tls
   duration: 24h
@@ -24,7 +24,7 @@ apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
   name: linkerd-proxy-injector
-  namespace: linkerd
+  namespace: {{ .Release.Namespace }}
 spec:
   secretName: linkerd-proxy-injector-k8s-tls
   duration: 24h
@@ -45,7 +45,7 @@ apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
   name: linkerd-sp-validator
-  namespace: linkerd
+  namespace: {{ .Release.Namespace }}
 spec:
   secretName: linkerd-sp-validator-k8s-tls
   duration: 24h
