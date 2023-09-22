@@ -1,5 +1,12 @@
-name: linkerd-certs
+name: {APP-NAME}
+serviceType: managed
 
-externalCA: false
+project:
+  branch: "[[ .Branch ]]"
+  commit: "[[ .SHA ]]"
 
-commonLabels: {}
+image:
+  registry: quay.io
+  name: giantswarm/{APP-NAME}
+  tag: v0.0.1
+  pullPolicy: IfNotPresent
